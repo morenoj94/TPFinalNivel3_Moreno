@@ -7,16 +7,46 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <%-- Css de Bootstrap --%>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>barra de navegacion</h1>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <%-- Barra de navegacion --%>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://media-public.canva.com/eF0SU/MAEDVheF0SU/1/tl.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        Navbar
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
-            </asp:ContentPlaceHolder>
+            <hr class="border border-dark border-1 opacity-25"/>
+
+            <%-- Div container para el contenido dentro de la master --%>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
             <h1>Footer</h1>
         </div>
     </form>
+
+    <%-- Scripts de Bootstrap --%>
+    <script src="Scripts/bootstrap.min.js"></script>
 </body>
 </html>
