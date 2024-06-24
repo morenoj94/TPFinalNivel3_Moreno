@@ -57,3 +57,5 @@ C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_More
 C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_Moreno\Visual\obj\Debug\Visual.csproj.CopyComplete
 C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_Moreno\Visual\obj\Debug\Visual.dll
 C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_Moreno\Visual\obj\Debug\Visual.pdb
+C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_Moreno\Visual\bin\Domain.dll
+C:\Users\Jesus Moreno\Documents\Curso Programacion\c# nivel 3\TPFinalNivel3_Moreno\Visual\bin\Domain.pdb
